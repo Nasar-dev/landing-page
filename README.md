@@ -13,5 +13,5 @@ A Modern and Responsive portfolio landing page built using HTML, CSS and JavaScr
 - CSS
 - JavaScript
 
-## Author
-Nasar Shahzad
+## 🔗 Live Demo
+https://nasar-dev.github.io/landing-page/
