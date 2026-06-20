@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header>
+  <div class="logo">DevNasar 💻</div>
+
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+  <ul id="nav-links">
+    <li>Home</li>
+    <li>Skills</li>
+    <li>Projects</li>
+    <li>Contact</li>
+  </ul>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>Hi, I'm a Frontend Developer 🚀</h1>
+  <p>I build modern, responsive and user-friendly websites using HTML, CSS & JavaScript.</p>
+  <button>Hire Me</button>
+</section>
+
+<!-- Skills -->
+<section class="skills">
+  <h2>My Skills</h2>
+
+  <div class="skill-boxes">
+    <div class="box">HTML</div>
+    <div class="box">CSS</div>
+    <div class="box">JavaScript</div>
+    <div class="box">GitHub</div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 DevNasar | All Rights Reserved</p>
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById("nav-links").classList.toggle("show");
+  }
+</script>
+
+</body>
+</html>
